@@ -66,6 +66,7 @@ object linebreak {
 		  ))
   //this is a comment before calling the method
 		//this is a second line of comment to test the git vcs
+		//third comment
   convert(sqlContext,
           inputfilename,
           schema,
