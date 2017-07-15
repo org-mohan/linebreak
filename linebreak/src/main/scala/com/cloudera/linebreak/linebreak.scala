@@ -64,7 +64,8 @@ object linebreak {
 				StructField("dateoflastchange",StringType,false),
 				StructField("col_new",StringType,false)
 		  ))
-
+  //this is a comment before calling the method
+		//this is a second line of comment to test the git vcs
   convert(sqlContext,
           inputfilename,
           schema,
